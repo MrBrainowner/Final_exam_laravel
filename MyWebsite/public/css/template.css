@@ -2,7 +2,51 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    width: 100vw;
+    height: 100vh;
 }
 body{
-    padding: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 1.2rem;
+}
+.navbar{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.hero-container{
+    background-color: gray;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.hero-box{
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.hero-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.content-container{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: gray;
 }
